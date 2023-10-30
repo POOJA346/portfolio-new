@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="./style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pooja Portfoilo</div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About me</a> </li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./project.html">Project</a></li>
+                        <li><a href="./contact.html">contact me</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I am <span class="name">Pooja Kumari</span>
+                <div>and I am a Passionate </div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.html">
+                    <button>Download resume</button></a>
+                    <a href="contact.html">
+                <button>githhub page</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+               <img src="./media/IMG_20230129_185406_200.jpg">
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Setup and start animation! -->
+  
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Devloper', 'UI/UX Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
